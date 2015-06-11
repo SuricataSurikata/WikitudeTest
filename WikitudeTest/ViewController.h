@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <WikitudeSDK/WikitudeSDK.h>
+/* Wikitude SDK debugging */
+#import <WikitudeSDK/WTArchitectViewDebugDelegate.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <WTArchitectViewDelegate, WTArchitectViewDebugDelegate>
 
 
 @end
