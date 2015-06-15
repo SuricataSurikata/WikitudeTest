@@ -189,6 +189,10 @@
     NSLog(@"Architect World from URL '%@' could not be loaded. Reason: %@", navigation.originalURL, [error localizedDescription]);
 }
 
+- (void)architectView:(WTArchitectView *)architectView invokedURL:(NSURL *)url{
+    NSLog(@"url was invoked in ARchitectWorld: %@", url);
+}
+
 /* The debug delegate can be used to respond to internal issues, e.g. the user declined camera or GPS access.
  
  NOTE: The debug delegate method -architectView:didEncounterInternalWarning is currently not used.
