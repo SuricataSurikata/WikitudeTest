@@ -12,3 +12,15 @@
 	display: table;
 }
 
+
+.label {
+    font-size: large;
+    width: 200px;
+    height: 100px;
+    overflow: auto;
+    position: absolute;
+    bottom: 0;
+    opacity: 1.0;
+    background-color: #BBBBBB;
+    
+}

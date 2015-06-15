@@ -20,7 +20,7 @@ var World = {
 
         var pageOneButton = this.createWwwButton("http://pl.wikipedia.org/wiki/Lisa_Simpson", 0.25, {
                                                  offsetX: 0.2,
-                                                 offsetY: -0.3,
+                                                 offsetY: -0.9,
                                                  zOrder: 1
                                                  });
 
@@ -51,9 +51,14 @@ var World = {
          As the button should be clickable the onClick trigger is defined in the options passed to the AR.ImageDrawable. In general each drawable can be made clickable by defining its onClick trigger. The function assigned to the click trigger calls AR.context.openInBrowser with the specified URL, which opens the URL in the browser.
          */
         options.onClick = function() {
-            AR.context.openInBrowser(url);
+            //AR.context.openInBrowser(url);
+            document.location = "architectsdk://dummy2";
         };
         return new AR.ImageDrawable(this.imgButton, size, options);
+    },
+    
+    showDetails: function showDetailsFn(){
+        
     },
 
 	worldLoaded: function worldLoadedFn() {
@@ -69,6 +74,7 @@ var World = {
 			e.parentElement.removeChild(e);
 		}, 15000);
 	}
+    
 };
 
 World.init();
