@@ -34,6 +34,8 @@
 		0CF6CE0A1B2867490001F7AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CF6CE091B2867490001F7AA /* UIKit.framework */; };
 		0CF6CE0C1B2868930001F7AA /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CF6CE0B1B2868930001F7AA /* libc++.dylib */; };
 		0CF6CE0E1B28689D0001F7AA /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CF6CE0D1B28689D0001F7AA /* libz.dylib */; };
+		0CF895151B2AE443009B2396 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF895131B2AE443009B2396 /* DetailsViewController.m */; };
+		0CF895161B2AE443009B2396 /* DetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CF895141B2AE443009B2396 /* DetailsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +82,9 @@
 		0CF6CE091B2867490001F7AA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0CF6CE0B1B2868930001F7AA /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
 		0CF6CE0D1B28689D0001F7AA /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		0CF895121B2AE443009B2396 /* DetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		0CF895131B2AE443009B2396 /* DetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
+		0CF895141B2AE443009B2396 /* DetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +181,9 @@
 				0CF6CDD01B285E4C0001F7AA /* Images.xcassets */,
 				0CF6CDD21B285E4C0001F7AA /* LaunchScreen.xib */,
 				0CF6CDC31B285E4C0001F7AA /* Supporting Files */,
+				0CF895121B2AE443009B2396 /* DetailsViewController.h */,
+				0CF895131B2AE443009B2396 /* DetailsViewController.m */,
+				0CF895141B2AE443009B2396 /* DetailsViewController.xib */,
 			);
 			path = WikitudeTest;
 			sourceTree = "<group>";
@@ -288,6 +296,7 @@
 			files = (
 				0CF6CDCF1B285E4C0001F7AA /* Main.storyboard in Resources */,
 				0CEACAE11B298C5700CA4207 /* ArchitectWorld in Resources */,
+				0CF895161B2AE443009B2396 /* DetailsViewController.xib in Resources */,
 				0CF6CDD41B285E4C0001F7AA /* LaunchScreen.xib in Resources */,
 				0CF6CDD11B285E4C0001F7AA /* Images.xcassets in Resources */,
 			);
@@ -310,6 +319,7 @@
 				0CF6CDCC1B285E4C0001F7AA /* ViewController.m in Sources */,
 				0CF6CDC91B285E4C0001F7AA /* AppDelegate.m in Sources */,
 				0CF6CDC61B285E4C0001F7AA /* main.m in Sources */,
+				0CF895151B2AE443009B2396 /* DetailsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +447,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/WikitudeTest/Frameworks",
@@ -445,6 +456,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "60ac0f4f-f468-46a1-a872-def7738cf867";
 			};
 			name = Debug;
 		};
@@ -452,6 +464,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/WikitudeTest/Frameworks",
@@ -460,6 +473,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "60ac0f4f-f468-46a1-a872-def7738cf867";
 			};
 			name = Release;
 		};
