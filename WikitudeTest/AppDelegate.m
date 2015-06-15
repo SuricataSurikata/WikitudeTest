@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "DetailsViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    [self.window makeKeyAndVisible];
+    
+    UIViewController *firstController = [[DetailsViewController alloc] initWithNibName:@"DetailsViewController" bundle:nil];
+    UINavigationController * navigationController = [[UINavigationController alloc] initWithRootViewController:firstController];
+    [navigationController setNavigationBarHidden:YES];
+    [self.window setRootViewController:navigationController];
+    
     return YES;
 }
 
