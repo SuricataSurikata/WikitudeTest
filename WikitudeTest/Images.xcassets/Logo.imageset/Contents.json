@@ -7,11 +7,12 @@
     {
       "idiom" : "universal",
       "scale" : "2x",
-      "filename" : "lisa.jpg"
+      "filename" : "btp_logo_options@2x.png"
     },
     {
       "idiom" : "universal",
-      "scale" : "3x"
+      "scale" : "3x",
+      "filename" : "btp_logo_options@3x.png"
     }
   ],
   "info" : {

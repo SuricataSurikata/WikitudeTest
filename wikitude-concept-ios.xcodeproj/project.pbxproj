@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C96A7001B34210B005B4BE0 /* Open sans in Resources */ = {isa = PBXBuildFile; fileRef = 0C96A6FF1B34210B005B4BE0 /* Open sans */; };
 		0CEACAE11B298C5700CA4207 /* ArchitectWorld in Resources */ = {isa = PBXBuildFile; fileRef = 0CEACAE01B298C5700CA4207 /* ArchitectWorld */; };
 		0CF6CDC61B285E4C0001F7AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF6CDC51B285E4C0001F7AA /* main.m */; };
 		0CF6CDC91B285E4C0001F7AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF6CDC81B285E4C0001F7AA /* AppDelegate.m */; };
-		0CF6CDCC1B285E4C0001F7AA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF6CDCB1B285E4C0001F7AA /* ViewController.m */; };
+		0CF6CDCC1B285E4C0001F7AA /* ARViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF6CDCB1B285E4C0001F7AA /* ARViewController.m */; };
 		0CF6CDCF1B285E4C0001F7AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CF6CDCD1B285E4C0001F7AA /* Main.storyboard */; };
 		0CF6CDD11B285E4C0001F7AA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CF6CDD01B285E4C0001F7AA /* Images.xcassets */; };
 		0CF6CDD41B285E4C0001F7AA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CF6CDD21B285E4C0001F7AA /* LaunchScreen.xib */; };
@@ -49,18 +50,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C96A6FF1B34210B005B4BE0 /* Open sans */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Open sans"; sourceTree = "<group>"; };
 		0CEACAE01B298C5700CA4207 /* ArchitectWorld */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ArchitectWorld; path = WikitudeTest/ArchitectWorld; sourceTree = "<group>"; };
-		0CF6CDC01B285E4C0001F7AA /* WikitudeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WikitudeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CF6CDC01B285E4C0001F7AA /* arpoc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = arpoc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CF6CDC41B285E4C0001F7AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0CF6CDC51B285E4C0001F7AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0CF6CDC71B285E4C0001F7AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0CF6CDC81B285E4C0001F7AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0CF6CDCA1B285E4C0001F7AA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0CF6CDCB1B285E4C0001F7AA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0CF6CDCA1B285E4C0001F7AA /* ARViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARViewController.h; sourceTree = "<group>"; };
+		0CF6CDCB1B285E4C0001F7AA /* ARViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARViewController.m; sourceTree = "<group>"; };
 		0CF6CDCE1B285E4C0001F7AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0CF6CDD01B285E4C0001F7AA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0CF6CDD31B285E4C0001F7AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		0CF6CDD91B285E4C0001F7AA /* WikitudeTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WikitudeTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CF6CDD91B285E4C0001F7AA /* wikitude-concept-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "wikitude-concept-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CF6CDDE1B285E4D0001F7AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0CF6CDDF1B285E4D0001F7AA /* WikitudeTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WikitudeTestTests.m; sourceTree = "<group>"; };
 		0CF6CDE91B2860E40001F7AA /* WikitudeSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WikitudeSDK.framework; path = WikitudeTest/Frameworks/WikitudeSDK.framework; sourceTree = "<group>"; };
@@ -124,6 +126,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C96A6FD1B3420DF005B4BE0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0C96A6FE1B3420E9005B4BE0 /* Fonts */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		0C96A6FE1B3420E9005B4BE0 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				0C96A6FF1B34210B005B4BE0 /* Open sans */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
 		0CEACADF1B2988CD00CA4207 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -153,9 +171,10 @@
 		0CF6CDB71B285E4C0001F7AA = {
 			isa = PBXGroup;
 			children = (
+				0C96A6FD1B3420DF005B4BE0 /* Resources */,
 				0CEACAE01B298C5700CA4207 /* ArchitectWorld */,
-				0CF6CDC21B285E4C0001F7AA /* WikitudeTest */,
-				0CF6CDDC1B285E4D0001F7AA /* WikitudeTestTests */,
+				0CF6CDC21B285E4C0001F7AA /* wikitude-concept-ios */,
+				0CF6CDDC1B285E4D0001F7AA /* wikitude-concept-iosTests */,
 				0CEACADF1B2988CD00CA4207 /* Frameworks */,
 				0CF6CDC11B285E4C0001F7AA /* Products */,
 			);
@@ -164,27 +183,28 @@
 		0CF6CDC11B285E4C0001F7AA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0CF6CDC01B285E4C0001F7AA /* WikitudeTest.app */,
-				0CF6CDD91B285E4C0001F7AA /* WikitudeTestTests.xctest */,
+				0CF6CDC01B285E4C0001F7AA /* arpoc.app */,
+				0CF6CDD91B285E4C0001F7AA /* wikitude-concept-iosTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0CF6CDC21B285E4C0001F7AA /* WikitudeTest */ = {
+		0CF6CDC21B285E4C0001F7AA /* wikitude-concept-ios */ = {
 			isa = PBXGroup;
 			children = (
 				0CF6CDC71B285E4C0001F7AA /* AppDelegate.h */,
 				0CF6CDC81B285E4C0001F7AA /* AppDelegate.m */,
-				0CF6CDCA1B285E4C0001F7AA /* ViewController.h */,
-				0CF6CDCB1B285E4C0001F7AA /* ViewController.m */,
+				0CF6CDCA1B285E4C0001F7AA /* ARViewController.h */,
+				0CF6CDCB1B285E4C0001F7AA /* ARViewController.m */,
 				0CF6CDCD1B285E4C0001F7AA /* Main.storyboard */,
-				0CF6CDD01B285E4C0001F7AA /* Images.xcassets */,
 				0CF6CDD21B285E4C0001F7AA /* LaunchScreen.xib */,
-				0CF6CDC31B285E4C0001F7AA /* Supporting Files */,
 				0CF895121B2AE443009B2396 /* DetailsViewController.h */,
 				0CF895131B2AE443009B2396 /* DetailsViewController.m */,
 				0CF895141B2AE443009B2396 /* DetailsViewController.xib */,
+				0CF6CDD01B285E4C0001F7AA /* Images.xcassets */,
+				0CF6CDC31B285E4C0001F7AA /* Supporting Files */,
 			);
+			name = "wikitude-concept-ios";
 			path = WikitudeTest;
 			sourceTree = "<group>";
 		};
@@ -197,12 +217,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		0CF6CDDC1B285E4D0001F7AA /* WikitudeTestTests */ = {
+		0CF6CDDC1B285E4D0001F7AA /* wikitude-concept-iosTests */ = {
 			isa = PBXGroup;
 			children = (
 				0CF6CDDF1B285E4D0001F7AA /* WikitudeTestTests.m */,
 				0CF6CDDD1B285E4D0001F7AA /* Supporting Files */,
 			);
+			name = "wikitude-concept-iosTests";
 			path = WikitudeTestTests;
 			sourceTree = "<group>";
 		};
@@ -217,9 +238,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0CF6CDBF1B285E4C0001F7AA /* WikitudeTest */ = {
+		0CF6CDBF1B285E4C0001F7AA /* wikitude-concept-ios */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0CF6CDE31B285E4D0001F7AA /* Build configuration list for PBXNativeTarget "WikitudeTest" */;
+			buildConfigurationList = 0CF6CDE31B285E4D0001F7AA /* Build configuration list for PBXNativeTarget "wikitude-concept-ios" */;
 			buildPhases = (
 				0CF6CDBC1B285E4C0001F7AA /* Sources */,
 				0CF6CDBD1B285E4C0001F7AA /* Frameworks */,
@@ -229,14 +250,14 @@
 			);
 			dependencies = (
 			);
-			name = WikitudeTest;
+			name = "wikitude-concept-ios";
 			productName = WikitudeTest;
-			productReference = 0CF6CDC01B285E4C0001F7AA /* WikitudeTest.app */;
+			productReference = 0CF6CDC01B285E4C0001F7AA /* arpoc.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0CF6CDD81B285E4C0001F7AA /* WikitudeTestTests */ = {
+		0CF6CDD81B285E4C0001F7AA /* wikitude-concept-iosTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0CF6CDE61B285E4D0001F7AA /* Build configuration list for PBXNativeTarget "WikitudeTestTests" */;
+			buildConfigurationList = 0CF6CDE61B285E4D0001F7AA /* Build configuration list for PBXNativeTarget "wikitude-concept-iosTests" */;
 			buildPhases = (
 				0CF6CDD51B285E4C0001F7AA /* Sources */,
 				0CF6CDD61B285E4C0001F7AA /* Frameworks */,
@@ -247,9 +268,9 @@
 			dependencies = (
 				0CF6CDDB1B285E4C0001F7AA /* PBXTargetDependency */,
 			);
-			name = WikitudeTestTests;
+			name = "wikitude-concept-iosTests";
 			productName = WikitudeTestTests;
-			productReference = 0CF6CDD91B285E4C0001F7AA /* WikitudeTestTests.xctest */;
+			productReference = 0CF6CDD91B285E4C0001F7AA /* wikitude-concept-iosTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -263,6 +284,7 @@
 				TargetAttributes = {
 					0CF6CDBF1B285E4C0001F7AA = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 7ND46U282D;
 					};
 					0CF6CDD81B285E4C0001F7AA = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -270,7 +292,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0CF6CDBB1B285E4C0001F7AA /* Build configuration list for PBXProject "WikitudeTest" */;
+			buildConfigurationList = 0CF6CDBB1B285E4C0001F7AA /* Build configuration list for PBXProject "wikitude-concept-ios" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -283,8 +305,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0CF6CDBF1B285E4C0001F7AA /* WikitudeTest */,
-				0CF6CDD81B285E4C0001F7AA /* WikitudeTestTests */,
+				0CF6CDBF1B285E4C0001F7AA /* wikitude-concept-ios */,
+				0CF6CDD81B285E4C0001F7AA /* wikitude-concept-iosTests */,
 			);
 		};
 /* End PBXProject section */
@@ -296,6 +318,7 @@
 			files = (
 				0CF6CDCF1B285E4C0001F7AA /* Main.storyboard in Resources */,
 				0CEACAE11B298C5700CA4207 /* ArchitectWorld in Resources */,
+				0C96A7001B34210B005B4BE0 /* Open sans in Resources */,
 				0CF895161B2AE443009B2396 /* DetailsViewController.xib in Resources */,
 				0CF6CDD41B285E4C0001F7AA /* LaunchScreen.xib in Resources */,
 				0CF6CDD11B285E4C0001F7AA /* Images.xcassets in Resources */,
@@ -316,7 +339,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CF6CDCC1B285E4C0001F7AA /* ViewController.m in Sources */,
+				0CF6CDCC1B285E4C0001F7AA /* ARViewController.m in Sources */,
 				0CF6CDC91B285E4C0001F7AA /* AppDelegate.m in Sources */,
 				0CF6CDC61B285E4C0001F7AA /* main.m in Sources */,
 				0CF895151B2AE443009B2396 /* DetailsViewController.m in Sources */,
@@ -336,7 +359,7 @@
 /* Begin PBXTargetDependency section */
 		0CF6CDDB1B285E4C0001F7AA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0CF6CDBF1B285E4C0001F7AA /* WikitudeTest */;
+			target = 0CF6CDBF1B285E4C0001F7AA /* wikitude-concept-ios */;
 			targetProxy = 0CF6CDDA1B285E4C0001F7AA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -447,6 +470,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -455,8 +479,9 @@
 				INFOPLIST_FILE = WikitudeTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "60ac0f4f-f468-46a1-a872-def7738cf867";
+				PRODUCT_NAME = arpoc;
+				PROVISIONING_PROFILE = "1ae867d4-a05e-4828-9804-1ab535143bac";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -464,6 +489,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -472,8 +498,9 @@
 				INFOPLIST_FILE = WikitudeTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "60ac0f4f-f468-46a1-a872-def7738cf867";
+				PRODUCT_NAME = arpoc;
+				PROVISIONING_PROFILE = "1ae867d4-a05e-4828-9804-1ab535143bac";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -491,8 +518,8 @@
 				);
 				INFOPLIST_FILE = WikitudeTestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WikitudeTest.app/WikitudeTest";
+				PRODUCT_NAME = "wikitude-concept-iosTests";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wikitude-concept-ios.app/wikitude-concept-ios";
 			};
 			name = Debug;
 		};
@@ -506,15 +533,15 @@
 				);
 				INFOPLIST_FILE = WikitudeTestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WikitudeTest.app/WikitudeTest";
+				PRODUCT_NAME = "wikitude-concept-iosTests";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wikitude-concept-ios.app/wikitude-concept-ios";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0CF6CDBB1B285E4C0001F7AA /* Build configuration list for PBXProject "WikitudeTest" */ = {
+		0CF6CDBB1B285E4C0001F7AA /* Build configuration list for PBXProject "wikitude-concept-ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0CF6CDE11B285E4D0001F7AA /* Debug */,
@@ -523,7 +550,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0CF6CDE31B285E4D0001F7AA /* Build configuration list for PBXNativeTarget "WikitudeTest" */ = {
+		0CF6CDE31B285E4D0001F7AA /* Build configuration list for PBXNativeTarget "wikitude-concept-ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0CF6CDE41B285E4D0001F7AA /* Debug */,
@@ -532,7 +559,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0CF6CDE61B285E4D0001F7AA /* Build configuration list for PBXNativeTarget "WikitudeTestTests" */ = {
+		0CF6CDE61B285E4D0001F7AA /* Build configuration list for PBXNativeTarget "wikitude-concept-iosTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0CF6CDE71B285E4D0001F7AA /* Debug */,

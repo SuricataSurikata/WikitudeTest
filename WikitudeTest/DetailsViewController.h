@@ -11,8 +11,9 @@
 @interface DetailsViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
 @property (weak, nonatomic) IBOutlet UILabel *titleLabel;
-@property (weak, nonatomic) IBOutlet UILabel *detailsLabel;
+//@property (weak, nonatomic) IBOutlet UILabel *detailsLabel;
 @property (weak, nonatomic) IBOutlet UIButton *scanButton;
 @property (weak, nonatomic) IBOutlet UIView *container;
+@property (weak, nonatomic) IBOutlet UITextView *detailsTextView;
 
 @end

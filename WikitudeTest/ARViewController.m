@@ -6,10 +6,10 @@
 //  Copyright (c) 2015 Patrycja Sitek. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "ARViewController.h"
 
 
-@interface ViewController ()
+@interface ARViewController ()
 
 /* Add a strong property to the main Wikitude SDK component, the WTArchitectView */
 @property (nonatomic, strong) WTArchitectView               *architectView;
@@ -20,7 +20,7 @@
 @end
 
 
-@implementation ViewController
+@implementation ARViewController
 
 - (void)dealloc
 {
@@ -191,6 +191,9 @@
 
 - (void)architectView:(WTArchitectView *)architectView invokedURL:(NSURL *)url{
     NSLog(@"url was invoked in ARchitectWorld: %@", url);
+    if([url.host isEqual: @"closearview"]){
+        [self popViewController];
+    }
 }
 
 /* The debug delegate can be used to respond to internal issues, e.g. the user declined camera or GPS access.
@@ -206,6 +209,12 @@
 - (void)architectView:(WTArchitectView *)architectView didEncounterInternalError:(NSError *)error {
     
     NSLog(@"WTArchitectView encountered an internal error '%@'", [error localizedDescription]);
+}
+
+#pragma mark close view
+
+-(void)popViewController{
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 

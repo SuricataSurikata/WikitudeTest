@@ -11,7 +11,7 @@
 /* Wikitude SDK debugging */
 #import <WikitudeSDK/WTArchitectViewDebugDelegate.h>
 
-@interface ViewController : UIViewController <WTArchitectViewDelegate, WTArchitectViewDebugDelegate>
+@interface ARViewController : UIViewController <WTArchitectViewDelegate, WTArchitectViewDebugDelegate>
 
 
 @end
