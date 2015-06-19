@@ -9,29 +9,45 @@
 
 	<script src="architect://architect.js"></script>
 	<script type="text/javascript" src="ADE/ade.js"></script>
-    
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
 
 	<link rel="stylesheet" href="css/default.css">
-    
-    <script>
-        $(document).ready(function(){
-                          $("#info").click(function(){
-                                           $("#info").hide();
-                                           });
-                          });
-        </script>
-    
+	<link rel="stylesheet" href="css/media.css">
+
 </head>
 
 <body>
-	<div id="loadingMessage" class="info">Loading ...</div>
+    <div id="left-sidebar">
+        <div id="title">
+            <h1>Mona Lisa</h1>
+            <h2>Leonardo da Vinci</h2>
+            <p>Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula. Ut molestie a, ultricies porta urna. </p>
+        </div>
 
-	<script src="js/imageontarget.js"></script>
-    
-    <div id="info" class="label">
-        Najeżone żółte włosy, naszyjnik ze sztucznych białych pereł, czerwona sukienka i buty stały się jej znakiem rozpoznawalnym.
+        <div id="elements">
+            <div>
+                <div class="element"><img src="assets/lisasmall.png"><div class="text">Lorem Lorem Lorem Lorem Lorem Lorem Lorem LoreLorem Lorem Lorem Lorem Lorem Lorem m ipsum dolor sit amet enim.</div> </div>
+                <div class="element"><img src="assets/lisasmall.png"><div class="text">Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse</div> </div>
+                <div class="element"><img src="assets/lisasmall.png"><div class="text">Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse</div> </div>
+            </div>
+        </div>
     </div>
-    
+    <img id="thumbnail">
+    <a class="close close-window"></a>
+
+    <div class="overlay">
+        <div id="overlay"></div>
+        <div id="content">
+            <a class="close close-modal"></a>
+            <div>
+                <img>
+                <p>no witam!</p>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/imageontarget.js"></script>
 </body>
 </html>

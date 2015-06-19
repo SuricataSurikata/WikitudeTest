@@ -1,26 +1,165 @@
-.info {
-	font-size: large;
-	position: absolute;
-	width: 100%;
-	padding-top: 12px;
-	padding-bottom: 12px;
-	background-color: #BBBBBB;
-	text-align: center;
-	top: 0;
-	left: 0;
-	opacity: 0.7;
+@font-face {
+	font-family: open_sanslight;
+	src: url(../assets/fonts/OpenSans-Light-webfont.eot);
+    src: url(../assets/fonts/OpenSans-Light-webfont.eot?#iefix) format('embedded-opentype'), url(../assets/fonts/OpenSans-Light-webfont.woff) format('woff'), url(../assets/fonts/OpenSans-Light-webfont.ttf) format('truetype'), url(../assets/fonts/OpenSans-Light-webfont.svg#open_sanslight) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: open_sansbold;
+    src: url(../assets/fonts/OpenSans-Semibold-webfont.eot);
+    src: url(../assets/fonts/OpenSans-Semibold-webfont.eot?#iefix) format('embedded-opentype'), url(../assets/fonts/OpenSans-Semibold-webfont.woff) format('woff'), url(../assets/fonts/OpenSans-Semibold-webfont.ttf) format('truetype'), url(../assets/fonts/OpenSans-Semibold-webfont.svg#open_sanssemibold) format('svg');
+    font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	font-family: open_sanslight;
+	background: rgba(76,55,60, .5) ;
+	background-size: cover;
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+}
+
+#left-sidebar {
+	height: 90vh;
+	width: 30vw;
 	display: table;
 }
 
+#left-sidebar #title {
+	display: table-row;
+}
 
-.label {
-    font-size: large;
-    width: 200px;
-    height: 100px;
-    overflow: auto;
-    position: absolute;
-    bottom: 0;
-    opacity: 1.0;
-    background-color: #BBBBBB;
-    
+#left-sidebar h1 {
+	color: white;
+	font-size: 1.6em;
+	font-weight: 300;
+	line-height: 1.1em;
+	margin: 0;
+}
+
+#left-sidebar h2 {
+	color: rgb(142, 123, 78);
+	font-size: 1.3em;
+	font-weight: 300;
+	padding-bottom: 10px;
+	border-bottom: 2px solid rgb(142, 123, 78);
+	margin: 0;
+}
+
+#left-sidebar p {
+	border-bottom: 1px solid rgb(142, 123, 78);
+	color: white;
+	font-size: 1em;
+	padding: 10px 0;
+	margin: 0;
+}
+
+#elements {
+	display: table-cell;
+	padding-top: 5px;
+	vertical-align: bottom;
+}
+
+#elements .element {
+	background: white;
+	cursor: pointer;
+	margin-top: 10px;
+	overflow: hidden;
+}
+
+#elements .element img {
+	float: left;
+	max-height: 15vh;
+	padding: 5px 15px 5px 5px;
+}
+
+#elements .element .text {
+	font-size: 1em;
+	padding: 5px 10px 5px 5px;
+}
+
+.close {
+	background: transparent url('../assets/x_ic.png') no-repeat center center;
+	background-size: contain;
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+	position: fixed;
+	right: 20px;
+	top: 20px;
+	z-index: 1000;
+}
+
+.overlay {
+	visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 100%;
+	width: 100%;
+	height: 100%;
+}
+
+.overlay #overlay {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+	opacity: .5;
+	background: grey;
+	overflow: hidden;
+}
+
+.overlay #content {
+	width: 50%;
+	position: relative;
+	margin: 25vh 100% 0;
+	background: white;
+	z-index: 2000;
+	transition: .5s margin ease-out;
+	-webkit-transition: .5s margin ease-out;
+	-o-transition: .5s margin ease-out;
+	-moz-transition: .5s margin ease-out;
+}
+
+.overlay #content div {
+	overflow: hidden;
+}
+
+.overlay #content img {
+	float: left;
+	width: 22%;
+	margin: 5vh 5% 5vh 3%;
+}
+
+.overlay #content p {
+	border-top: 1px solid rgb(142, 123, 78);
+	line-height: 1.5em;
+	padding-top: 1vh;
+	text-align: left;
+	float: right;
+	font-size: 1em;
+	width: 65%;
+	margin: 5vh 5% 5vh 0;
+}
+
+.overlay .close {
+	position: absolute;
+	top: -20px;
+	right: -20px;
+	z-index: 3000;
+}
+
+#thumbnail {
+	border: 2px solid black;
+	bottom: 20px;
+	max-height: 40vh;
+	max-width: 20vw;
+	right: 20px;
+	position: fixed;
 }
