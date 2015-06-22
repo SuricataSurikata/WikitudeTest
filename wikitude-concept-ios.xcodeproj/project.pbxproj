@@ -7,7 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C96A7001B34210B005B4BE0 /* Open sans in Resources */ = {isa = PBXBuildFile; fileRef = 0C96A6FF1B34210B005B4BE0 /* Open sans */; };
+		0C737AD91B3847A50044AD93 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C737ACF1B3847A50044AD93 /* OpenSans-Bold.ttf */; };
+		0C737ADA1B3847A50044AD93 /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C737AD01B3847A50044AD93 /* OpenSans-BoldItalic.ttf */; };
+		0C737ADB1B3847A50044AD93 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C737AD11B3847A50044AD93 /* OpenSans-ExtraBold.ttf */; };
+		0C737ADC1B3847A50044AD93 /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C737AD21B3847A50044AD93 /* OpenSans-ExtraBoldItalic.ttf */; };
+		0C737ADD1B3847A50044AD93 /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C737AD31B3847A50044AD93 /* OpenSans-Italic.ttf */; };
+		0C737ADE1B3847A50044AD93 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C737AD41B3847A50044AD93 /* OpenSans-Light.ttf */; };
+		0C737ADF1B3847A50044AD93 /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C737AD51B3847A50044AD93 /* OpenSans-LightItalic.ttf */; };
+		0C737AE01B3847A50044AD93 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C737AD61B3847A50044AD93 /* OpenSans-Regular.ttf */; };
+		0C737AE11B3847A50044AD93 /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C737AD71B3847A50044AD93 /* OpenSans-Semibold.ttf */; };
+		0C737AE21B3847A50044AD93 /* OpenSans-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C737AD81B3847A50044AD93 /* OpenSans-SemiboldItalic.ttf */; };
+		0C737AE51B38482D0044AD93 /* Code_Pro_Demo.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0C737AE41B38482D0044AD93 /* Code_Pro_Demo.otf */; };
 		0CEACAE11B298C5700CA4207 /* ArchitectWorld in Resources */ = {isa = PBXBuildFile; fileRef = 0CEACAE01B298C5700CA4207 /* ArchitectWorld */; };
 		0CF6CDC61B285E4C0001F7AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF6CDC51B285E4C0001F7AA /* main.m */; };
 		0CF6CDC91B285E4C0001F7AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF6CDC81B285E4C0001F7AA /* AppDelegate.m */; };
@@ -50,9 +60,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0C96A6FF1B34210B005B4BE0 /* Open sans */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Open sans"; sourceTree = "<group>"; };
+		0C737ACF1B3847A50044AD93 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		0C737AD01B3847A50044AD93 /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		0C737AD11B3847A50044AD93 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		0C737AD21B3847A50044AD93 /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		0C737AD31B3847A50044AD93 /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		0C737AD41B3847A50044AD93 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		0C737AD51B3847A50044AD93 /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		0C737AD61B3847A50044AD93 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		0C737AD71B3847A50044AD93 /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
+		0C737AD81B3847A50044AD93 /* OpenSans-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiboldItalic.ttf"; sourceTree = "<group>"; };
+		0C737AE41B38482D0044AD93 /* Code_Pro_Demo.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Code_Pro_Demo.otf; sourceTree = "<group>"; };
 		0CEACAE01B298C5700CA4207 /* ArchitectWorld */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ArchitectWorld; path = WikitudeTest/ArchitectWorld; sourceTree = "<group>"; };
-		0CF6CDC01B285E4C0001F7AA /* arpoc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = arpoc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CF6CDC01B285E4C0001F7AA /* wikitude-concept-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "wikitude-concept-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CF6CDC41B285E4C0001F7AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0CF6CDC51B285E4C0001F7AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0CF6CDC71B285E4C0001F7AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -126,6 +146,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C737ACE1B38474E0044AD93 /* OpenSans */ = {
+			isa = PBXGroup;
+			children = (
+				0C737ACF1B3847A50044AD93 /* OpenSans-Bold.ttf */,
+				0C737AD01B3847A50044AD93 /* OpenSans-BoldItalic.ttf */,
+				0C737AD11B3847A50044AD93 /* OpenSans-ExtraBold.ttf */,
+				0C737AD21B3847A50044AD93 /* OpenSans-ExtraBoldItalic.ttf */,
+				0C737AD31B3847A50044AD93 /* OpenSans-Italic.ttf */,
+				0C737AD41B3847A50044AD93 /* OpenSans-Light.ttf */,
+				0C737AD51B3847A50044AD93 /* OpenSans-LightItalic.ttf */,
+				0C737AD61B3847A50044AD93 /* OpenSans-Regular.ttf */,
+				0C737AD71B3847A50044AD93 /* OpenSans-Semibold.ttf */,
+				0C737AD81B3847A50044AD93 /* OpenSans-SemiboldItalic.ttf */,
+			);
+			name = OpenSans;
+			sourceTree = "<group>";
+		};
+		0C737AE31B3848110044AD93 /* CodeProDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0C737AE41B38482D0044AD93 /* Code_Pro_Demo.otf */,
+			);
+			name = CodeProDemo;
+			sourceTree = "<group>";
+		};
 		0C96A6FD1B3420DF005B4BE0 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -137,7 +182,8 @@
 		0C96A6FE1B3420E9005B4BE0 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				0C96A6FF1B34210B005B4BE0 /* Open sans */,
+				0C737AE31B3848110044AD93 /* CodeProDemo */,
+				0C737ACE1B38474E0044AD93 /* OpenSans */,
 			);
 			name = Fonts;
 			sourceTree = "<group>";
@@ -183,7 +229,7 @@
 		0CF6CDC11B285E4C0001F7AA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0CF6CDC01B285E4C0001F7AA /* arpoc.app */,
+				0CF6CDC01B285E4C0001F7AA /* wikitude-concept-ios.app */,
 				0CF6CDD91B285E4C0001F7AA /* wikitude-concept-iosTests.xctest */,
 			);
 			name = Products;
@@ -252,7 +298,7 @@
 			);
 			name = "wikitude-concept-ios";
 			productName = WikitudeTest;
-			productReference = 0CF6CDC01B285E4C0001F7AA /* arpoc.app */;
+			productReference = 0CF6CDC01B285E4C0001F7AA /* wikitude-concept-ios.app */;
 			productType = "com.apple.product-type.application";
 		};
 		0CF6CDD81B285E4C0001F7AA /* wikitude-concept-iosTests */ = {
@@ -317,10 +363,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CF6CDCF1B285E4C0001F7AA /* Main.storyboard in Resources */,
+				0C737AE21B3847A50044AD93 /* OpenSans-SemiboldItalic.ttf in Resources */,
+				0C737ADC1B3847A50044AD93 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				0C737ADF1B3847A50044AD93 /* OpenSans-LightItalic.ttf in Resources */,
 				0CEACAE11B298C5700CA4207 /* ArchitectWorld in Resources */,
-				0C96A7001B34210B005B4BE0 /* Open sans in Resources */,
+				0C737ADD1B3847A50044AD93 /* OpenSans-Italic.ttf in Resources */,
+				0C737AD91B3847A50044AD93 /* OpenSans-Bold.ttf in Resources */,
+				0C737AE51B38482D0044AD93 /* Code_Pro_Demo.otf in Resources */,
+				0C737ADB1B3847A50044AD93 /* OpenSans-ExtraBold.ttf in Resources */,
+				0C737ADA1B3847A50044AD93 /* OpenSans-BoldItalic.ttf in Resources */,
 				0CF895161B2AE443009B2396 /* DetailsViewController.xib in Resources */,
 				0CF6CDD41B285E4C0001F7AA /* LaunchScreen.xib in Resources */,
+				0C737ADE1B3847A50044AD93 /* OpenSans-Light.ttf in Resources */,
+				0C737AE01B3847A50044AD93 /* OpenSans-Regular.ttf in Resources */,
+				0C737AE11B3847A50044AD93 /* OpenSans-Semibold.ttf in Resources */,
 				0CF6CDD11B285E4C0001F7AA /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -471,7 +527,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/WikitudeTest/Frameworks",
@@ -479,8 +535,8 @@
 				INFOPLIST_FILE = WikitudeTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = arpoc;
-				PROVISIONING_PROFILE = "1ae867d4-a05e-4828-9804-1ab535143bac";
+				PRODUCT_NAME = "wikitude-concept-ios";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -490,7 +546,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/WikitudeTest/Frameworks",
@@ -498,8 +554,8 @@
 				INFOPLIST_FILE = WikitudeTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = arpoc;
-				PROVISIONING_PROFILE = "1ae867d4-a05e-4828-9804-1ab535143bac";
+				PRODUCT_NAME = "wikitude-concept-ios";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
